@@ -81,19 +81,17 @@ int CreateInstanse()
 
 
 
-int SceneLoop()
-{
+int SceneLoop() {
 
 	while (!glfwWindowShouldClose(window)) 
 	{
 		glfwPollEvents();
 	}
-
 }
 
 
 
-void ExitApp() {
+int ExitApp() {
 	vkDestroyInstance(instance, NULL);
 
 	glfwDestroyWindow(window);
