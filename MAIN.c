@@ -6,6 +6,15 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <stdbool.h>
+
+const char* validationLayers[] = "VK_LAYER_KHRONOS_validation";
+
+#ifdef NDEBUG
+const bool enableValidationLayers = false;
+#else
+const bool enableValidationLayers = true;
+#endif
 
 VkInstance instance;
 
