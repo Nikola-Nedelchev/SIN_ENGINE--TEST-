@@ -1,6 +1,7 @@
 Distributed under 3-clause BSD License
 
-Copyright <2024> <Nikola Nedelchev>
+Copyright <2024> 
+<Nikola Nedelchev>
 
 Redistribution and use in source and binary 
 forms, with or without modification, are 
